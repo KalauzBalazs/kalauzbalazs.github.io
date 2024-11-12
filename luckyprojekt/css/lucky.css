@@ -39,6 +39,8 @@ nav a:first-child img{
     font-variant:small-caps;
 }
 .kave,.suti{
+    position:relative;
+
     color:#1F5B25;
     background-color: #fff;
     border: 1px solid #1F5B25;
@@ -52,6 +54,6 @@ h1{
 #napiajanlat{
     position:absolute;
     width: 40px;
-    right: 80px;
-
+    right: 20px;
+    top: 10px;
 }
