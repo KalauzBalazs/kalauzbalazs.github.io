@@ -7,6 +7,9 @@
     <title>Lucky - Kávéfajták</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/lucky.css">
 </head>
 
@@ -43,7 +46,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6">
-                    <div class="kave">
+                    <div class="kave" data-bs-toggle="modal" data-bs-target="#cappuccinoModal">
                         <img src="./img/flower.png" alt="flower" id="napiajanlat">
                         <img src="./img/coffees/cappuccino_k.jpg" alt="Capuccino" class="img-fluid">
                         <h2>Capuccino</h2>
@@ -58,9 +61,26 @@
             </div>
         </div>
     </main>
-    <footer>
 
-    </footer>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="cappuccinoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Cappuccino</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <img src="./img/coffees/cappuccino_k.jpg" alt="cappuccino"><br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt voluptatum dignissimos atque labore quam tempore rerum velit, ipsum nostrum commodi perspiciatis at illum unde obcaecati minima. Vero fuga at aliquid?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Bezárás</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 
 </html>
