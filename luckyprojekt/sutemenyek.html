@@ -30,8 +30,9 @@
     <div class="container">
         <h1>Luky - Sütemények</h1>
         <div class="row">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6" data-bs-toggle="modal" data-bs-target="#tiramisuModal">
                 <div class="suti">
+                    <img src="./img/flower.png" alt="flower" id="napiajanlat">
                     <img src="img/cakes/tiramisu_k.jpg" alt="" class="img-fluid">
                     <h2>Tiramisu</h2>
                 </div>
@@ -58,6 +59,34 @@
                 <div class="suti">
                     <img src="img/cakes/kavesmuffin_k.jpg" alt="" class="img-fluid">
                     <h2>Kávés muffin</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="tiramisuModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Tiramisu</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="./img/cakes/tiramisu_k.jpg" alt="tiramisu" class="img-fluid rounded">
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nemo ea fugiat
+                                repudiandae eius, aliquid pariatur sequi aut laborum dicta. Officia laudantium vel
+                                placeat
+                                ullam voluptatibus, iste rerum reprehenderit maxime.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
