@@ -49,3 +49,9 @@ h1{
     text-align: center;
     color: #1F5B25;
 }
+#napiajanlat{
+    position:absolute;
+    width: 40px;
+    right: 80px;
+
+}
