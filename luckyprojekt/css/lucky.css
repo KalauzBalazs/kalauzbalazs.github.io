@@ -45,3 +45,7 @@ nav a:first-child img{
     border-radius: 4px;
     margin-bottom: 1rem;
 }
+h1{
+    text-align: center;
+    color: #1F5B25;
+}
